@@ -1,0 +1,5 @@
+<view>
+  <input model:value="{{mac}}" placeholder="输入蓝牙设备的mac地址 XX:XX:XX:XX:XX"/>
+  <button bindtap="initBlue">蓝牙连接测试</button>
+  <textarea model:value="{{text}}" placeholder=""></textarea>
+</view>
